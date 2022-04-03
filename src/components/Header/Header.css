@@ -111,4 +111,19 @@
     height: 100%;
     width: 100%;
   }
+  .header_left-text h1 {
+    font-size: 2rem;
+  }
+  .header_left-text p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_left-text h1 {
+    font-size: 1.5rem;
+  }
+  .header_left-text p {
+    font-size: 1rem;
+  }
 }

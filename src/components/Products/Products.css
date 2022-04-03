@@ -107,6 +107,13 @@
   }
   .products_two-text {
     padding: 1rem;
+    text-align: start;
+  }
+
+  .products_two-text h3,
+  h2,
+  h1 {
+    font-weight: 100;
   }
 
   .products_one img {

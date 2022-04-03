@@ -4,7 +4,7 @@ import product from "../../img/pic.jpg";
 import "./Products.css";
 function Products() {
   return (
-    <div id="products">
+    <div>
       {/* first product */}
       <div className="products_wrap-1">
         <div className="products_one">
