@@ -1,0 +1,127 @@
+.products_wrap-1,
+.products_wrap-2 {
+  height: 100vh;
+  background-color: bisque;
+  flex: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_one {
+  position: relative;
+  flex: 50%;
+  height: 100%;
+  display: flex;
+}
+.products_one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products_one-text h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.products_one-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 1s;
+
+  width: 100%;
+  height: 100%;
+}
+.products_one-text:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.products_two {
+  flex: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.products_two-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 2.5rem;
+  text-transform: capitalize;
+
+  width: 100%;
+  height: 100%;
+}
+.products_two-text h2 {
+  border-bottom: 2px solid #000;
+}
+.products_two-text h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.products_btn {
+  cursor: pointer;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  border: px solid #000;
+  background-color: transparent;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+.products_btn p {
+  font-size: 1.2rem;
+}
+.products_btn:hover {
+  border: 2px solid var(--gray-color);
+  color: var(--gray-color);
+}
+@media screen and (max-width: 769px) {
+  .products_one-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .products_wrap-1 {
+    flex-direction: column;
+    height: auto;
+  }
+  .products_wrap-2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .products_two-text {
+    padding: 1rem;
+  }
+
+  .products_one img {
+    padding: 0.3rem;
+  }
+
+  .products_two-text h1 {
+    font-size: 2.2rem;
+  }
+  .products_one-text h1 {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .products_two-text h3,
+  .products_two-text h2 {
+    font-size: 1.5rem;
+  }
+}

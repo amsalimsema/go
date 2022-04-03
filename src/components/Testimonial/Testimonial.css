@@ -1,0 +1,7 @@
+.testimonial {
+  height: 100vh;
+  background-color: rosybrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

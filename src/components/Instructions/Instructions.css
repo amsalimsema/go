@@ -1,0 +1,7 @@
+.instructions {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
