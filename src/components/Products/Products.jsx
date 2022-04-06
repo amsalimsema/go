@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import product from "../../img/pic.jpg";
 import "./Products.css";
+
 function Products() {
   return (
     <div id="product">
@@ -46,7 +47,7 @@ function Products() {
               transition={{ duration: 2, ease: "easeInOut" }}
               className="products_btn"
             >
-              <p>Talk To Gen Doctor</p>
+              <p>Talk to Gen Doctor</p>
             </motion.button>
           </div>
         </div>

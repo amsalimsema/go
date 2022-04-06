@@ -20,7 +20,6 @@
   font-size: 2rem;
   color: var(--black-color);
   transition: 1s ease;
-  /* margin: 0 0.8rem; */
 }
 
 .bottomnav_main svg:hover {

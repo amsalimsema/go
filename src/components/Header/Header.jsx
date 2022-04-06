@@ -15,8 +15,9 @@ function Header() {
               <div className="header_left-text">
                 <h1>Gen Organics</h1>
                 <p>
-                  Proudly Made From Nature. Formulated From The Finest Organic
-                  Ingredients To Nourish, Protect And Care For Your Skin.
+                  Proudly made from mother nature. Formulated from the finest
+                  organic ingredients to nourish, protect and care for your
+                  skin.
                 </p>
                 <div className="header_left-btn">
                   <button className="header-btn">
