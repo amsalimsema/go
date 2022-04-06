@@ -20,7 +20,6 @@
   object-fit: cover;
 }
 .products_one-text h1 {
-  font-weight: 900;
   font-size: 3rem;
 }
 
@@ -71,16 +70,15 @@
   border-bottom: 2px solid #000;
 }
 .products_two-text h1 {
-  font-weight: 900;
   font-size: 3rem;
 }
 .products_btn {
   cursor: pointer;
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
-  border: px solid #000;
+  border: 2px solid #000;
   background-color: transparent;
-  font-weight: 900;
+
   margin-top: 2rem;
 }
 .products_btn p {
@@ -123,7 +121,6 @@
     font-size: 2.2rem;
   }
   .products_one-text h1 {
-    font-weight: 900;
     font-size: 2rem;
   }
   .products_two-text h3,

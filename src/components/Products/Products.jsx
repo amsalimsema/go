@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import product from "../../img/pic.jpg";
 import "./Products.css";
-
 function Products() {
   return (
     <div id="product">
