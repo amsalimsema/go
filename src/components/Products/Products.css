@@ -19,9 +19,9 @@
   height: 100%;
   object-fit: cover;
 }
-.products_one-text h1 {
+/* .products_one-text h1 {
   font-size: 3rem;
-}
+} */
 
 .products_one-text {
   position: absolute;
@@ -69,9 +69,9 @@
 .products_two-text h2 {
   border-bottom: 2px solid #000;
 }
-.products_two-text h1 {
+/* .products_two-text h1 {
   font-size: 3rem;
-}
+} */
 .products_btn {
   cursor: pointer;
   padding: 0.7rem 1.5rem;
@@ -81,9 +81,9 @@
 
   margin-top: 2rem;
 }
-.products_btn p {
+/* .products_btn p {
   font-size: 1.2rem;
-}
+} */
 .products_btn:hover {
   border: 2px solid var(--gray-color);
   color: var(--gray-color);
@@ -117,7 +117,7 @@
     padding: 0.3rem;
   }
 
-  .products_two-text h1 {
+  /* .products_two-text h1 {
     font-size: 2.2rem;
   }
   .products_one-text h1 {
@@ -126,5 +126,5 @@
   .products_two-text h3,
   .products_two-text h2 {
     font-size: 1.5rem;
-  }
+  }*/
 }

@@ -4,8 +4,8 @@ export const users = [
     company: "Pronama LLC",
     avatar: "images/face.png",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
-    name: "Harold Brown",
+      "Testimonials or quotes from your customers are one of the most common forms of customer reviews.",
+    name: "Kim Tebusweke",
     title: "Executive Manager",
   },
   {
@@ -13,8 +13,8 @@ export const users = [
     company: "Apercu Design Agency",
     avatar: "images/face.png",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
-    name: "Anna Taylor",
+      "Testimonials or quotes from your customers are one of the most common forms of customer reviews.",
+    name: "Kim Tebusweke",
     title: "HR Manager",
   },
   {
@@ -22,8 +22,8 @@ export const users = [
     company: "Gonza Studios",
     avatar: "images/face.png",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
-    name: "James Garry",
+      "Testimonials or quotes from your customers are one of the most common forms of customer reviews.",
+    name: "Kim Tebusweke",
     title: "UI Designer",
   },
 ];

@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   position: absolute;
   top: 6rem;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1020px) {
   .testimonial {
     height: auto;
     padding: 100px 0;
@@ -27,7 +27,7 @@
 }
 
 .testimonial_wrap {
-  width: 300px;
+  width: 310px;
 }
 
 .testimonial_avatar,

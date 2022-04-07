@@ -26,13 +26,13 @@ function Footer() {
               transition={{ duration: 2, ease: "easeInOut" }}
             >
               <div>
-                <h3>Talk to </h3>
-                <h3>Our Specialist</h3>
+                <h4>Talk to </h4>
+                <h4>Our Specialist</h4>
                 <br />
                 <p>Dr.Gen</p>
                 <button>
                   <Link to="/">
-                    <small>START NOW</small>
+                    <small>Start Now</small>
                   </Link>
                 </button>
               </div>
