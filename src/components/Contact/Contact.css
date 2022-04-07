@@ -12,6 +12,9 @@
   margin: 3rem auto 1rem auto;
   font-size: 1.5rem;
 }
+.contact_info_inner {
+  margin-top: 20px;
+}
 @media screen and (max-width: 650px) {
   .contact {
     text-align: start;

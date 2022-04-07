@@ -1,6 +1,6 @@
 //import Instructions from "../components/Instructions/Instructions";
 import Products from "../components/Products/Products";
-//import Testimonial from "../components/Testimonial/Testimonial";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 export const Home = () => {
   return (
@@ -8,7 +8,7 @@ export const Home = () => {
       <Products />
       {/* <Instructions /> */}
 
-      {/* <Testimonial /> */}
+      <Testimonial />
     </>
   );
 };

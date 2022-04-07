@@ -73,6 +73,7 @@ function Footer() {
             </div>
           </div>
         </div>
+
         <div className="footer_copyright">
           <img src={gen} alt="footer logo" />
           <p>

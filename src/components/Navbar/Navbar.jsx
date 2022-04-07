@@ -15,7 +15,7 @@ function Navbar() {
         <div className="nav_list">
           <ul>
             <li>
-              <a href="/#instructions">
+              <a href="/#product">
                 <p className="link">Instructions</p>
               </a>
             </li>

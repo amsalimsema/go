@@ -32,14 +32,14 @@ function Products() {
             </motion.h2>
 
             <br />
-            <motion.h3
+            <motion.p
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
               Use to bath with foam formed. Apply foam to affected areas for
               about 10 min, let it dry and then wash it off and apply generously
               gen organics pure jelly. Noticeable results after 72hrs of use.
-            </motion.h3>
+            </motion.p>
 
             <motion.button
               whileInView={{ opacity: [0, 1] }}
@@ -71,14 +71,14 @@ function Products() {
             </motion.h2>
 
             <br />
-            <motion.h3
+            <motion.p
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
               Use to bath with foam formed. Apply foam to affected areas for
               about 10 min, let it dry and then wash it off and apply generously
               gen organics pure jelly. Noticeable results after 72hrs of use.
-            </motion.h3>
+            </motion.p>
 
             <motion.button
               whileInView={{ opacity: [0, 1] }}
