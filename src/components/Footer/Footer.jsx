@@ -10,7 +10,7 @@ import gen from "../../img/logoP.png";
 import pic from "../../img/face.png";
 
 import Contact from "../Contact/Contact";
-import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 
 function Footer() {
@@ -31,9 +31,9 @@ function Footer() {
                 <br />
                 <p>Dr.Gen</p>
                 <button>
-                  <Link to="/">
+                  <a href="tel:0782442281">
                     <small>Start Now</small>
-                  </Link>
+                  </a>
                 </button>
               </div>
               <div>
@@ -49,7 +49,11 @@ function Footer() {
 
           <div className="footer_left">
             <div>
-              <a href="/#contact">
+              <a
+                href="https://wa.me/256782442281/?text=Hi there, Whatsup"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <BsWhatsapp title="WhatsApp" style={{ color: "#25D366" }} />
               </a>
 
@@ -64,7 +68,7 @@ function Footer() {
               <a href="/#instructions">
                 <BsTwitter title="Twitter" style={{ color: " #00acee" }} />
               </a>
-              <a href="/#instructions">
+              <a href="tel:0782442281">
                 <BsTelephoneFill
                   title="Make a call"
                   style={{ color: "rgb(0,0,0,0.6)" }}
@@ -72,6 +76,9 @@ function Footer() {
               </a>
             </div>
           </div>
+          <p className="copyright_mobile">
+            &copy;{new Date().getFullYear()}&nbsp;Gen Organics.
+          </p>
         </div>
 
         <div className="footer_copyright">

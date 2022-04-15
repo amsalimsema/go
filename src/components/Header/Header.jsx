@@ -21,7 +21,9 @@ function Header() {
                 </p>
                 <div className="header_left-btn">
                   <button className="header-btn">
-                    <p>General Enquiries & Sales</p>
+                    <a href="/#contact">
+                      <p className="link">General Enquiries & Sales</p>
+                    </a>
                   </button>
                 </div>
               </div>

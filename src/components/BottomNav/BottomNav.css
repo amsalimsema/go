@@ -18,6 +18,7 @@
 
 .bottomnav_main svg {
   font-size: 2rem;
+
   color: var(--black-color);
   transition: 1s ease;
 }

@@ -56,6 +56,11 @@
   text-align: center;
   background-color: #27af48;
 }
+.copyright_mobile {
+  display: none;
+  text-align: center;
+  padding-top: 3rem;
+}
 
 @media screen and (max-width: 1000px) {
   .footer {
@@ -87,5 +92,8 @@
   }
   .footer_copyright {
     display: none;
+  }
+  .copyright_mobile {
+    display: block;
   }
 }

@@ -39,7 +39,9 @@ function Navbar() {
 
         <div className="nav_btn">
           <button className="nav_btn-order">
-            <p>Order Now</p>
+            <a href="/#contact">
+              <p className="link">Order Now</p>
+            </a>
           </button>
         </div>
       </nav>
