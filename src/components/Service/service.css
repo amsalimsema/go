@@ -1,93 +1,102 @@
-.header_main {
-  height: calc(100vh - 50px);
+.service_main {
   width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
 }
-.header_container {
+.service_container,
+.service_container-2 {
   display: flex;
-  flex: 100%;
   align-items: center;
   justify-content: center;
+  flex: 100%;
 }
 
-.header_left {
+.service_left {
   flex: 50%;
 }
-.header_left-text {
+.service_left-text {
   color: var(--white);
   text-align: start;
 }
-.header_left h1 {
-  font-size: 2.5rem;
+.service_left h4 {
+  font-size: 2rem;
 }
 
-.header_left p {
+.service_left p {
   font-size: 1.2rem;
   line-height: 30px;
   margin-top: 10px;
 }
 
-.header_right {
+.service_right {
   flex: 50%;
+  padding: 0 2rem;
 }
-.header_right img {
-  height: 100%;
+.service_right img {
+  /* height: 70%; */
   width: 100%;
   border-radius: 10px;
   border-bottom-right-radius: 80px;
   border-top-left-radius: 80px;
 }
 
-.header_left-text button {
+.service_left-text button {
   background-color: var(--red);
   padding: 0.5rem 1rem;
   border: none;
   font-size: 1.6rem;
   font-weight: 700;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 20px;
 }
-.header_left-text button:hover {
+.service_left-text button:hover {
   background-color: var(--grey);
   color: var(--black);
-  box-shadow: 0 0 50px red;
 }
 
 @media screen and (max-width: 1024px) {
-  .header_main {
+  .service_main {
     height: auto;
     width: 95%;
-    margin: 50px auto;
+  }
+  .service_container,
+  .service_container-2 {
+    margin: 30px auto;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .header_main {
+  .service_main {
     height: auto;
     width: 90%;
-    margin: 0 auto;
   }
-  .header_container {
+  .service_container {
+    flex-direction: column;
+    /* margin: 30px auto; */
+  }
+  .service_container-2 {
     flex-direction: column-reverse;
-    margin: 30px auto;
-  }
-  .header_left h1 {
-    font-size: 2rem;
+    /* margin: 30px auto; */
   }
 
-  .header_left p {
+  .service_left h4 {
+    font-size: 2rem;
+  }
+  .service_left {
+    margin: 2rem auto;
+  }
+  .service_left p {
     font-size: 1.2rem;
     line-height: 30px;
     margin-top: 10px;
   }
 
-  .header_left-text {
+  .service_left-text {
     text-align: center;
   }
-  .header_left-text button {
+  .service_left-text button {
     font-size: 1.2rem;
   }
 }

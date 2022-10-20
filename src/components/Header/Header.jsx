@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import "./Header.css";
-import person from "../../img/person.png";
+import { motion } from "framer-motion"
+import "./Header.css"
+import person from "../../img/cover.png"
 
 function Header() {
   return (
@@ -9,23 +9,32 @@ function Header() {
         <div className="header_container">
           <div className="header_left">
             <motion.div
-              whileInView={{ scale: [0.95, 1] }}
+              whileInView={{ scale: [0.9, 1] }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
               <div className="header_left-text">
-                <h1>Gen Organics</h1>
+                <h1>
+                  Divination{" "}
+                  <span style={{ color: "red", fontStyle: "italic" }}>
+                    through
+                  </span>{" "}
+                  <br />
+                  Native Spiritual Healing!
+                </h1>
                 <p>
-                  Proudly made from mother nature. Formulated from the finest
-                  organic ingredients to nourish, protect and care for your
-                  skin.
+                  Ancestral spiritual guidance, financial breakthrough, marriage
+                  problems, break ups and divorce. Divine spiritual healing and
+                  cleansing for evil spirits, generational curses, bad luck,
+                  witchcraft, tokoloshe and bad dreams.
                 </p>
-                <div className="header_left-btn">
-                  <button className="header-btn">
-                    <a href="/#contact">
-                      <p className="link">General Enquiries & Sales</p>
-                    </a>
-                  </button>
-                </div>
+
+                <a href="tel:+256782442281">
+                  <button>+256782442281</button>
+                </a>
+                <p style={{ fontSize: "12px", fontStyle: "italic" }}>
+                  *Disclaimer: &nbsp;All services are fully spiritual and
+                  results may vary.
+                </p>
               </div>
             </motion.div>
           </div>
@@ -40,7 +49,7 @@ function Header() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

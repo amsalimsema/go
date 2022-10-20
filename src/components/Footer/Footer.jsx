@@ -1,96 +1,37 @@
-import {
-  BsWhatsapp,
-  BsMessenger,
-  BsInstagram,
-  BsTwitter,
-  BsTelephoneFill,
-} from "react-icons/bs";
-import "./Footer.css";
-import gen from "../../img/logoP.png";
-import pic from "../../img/face.png";
+import React from "react"
+import "./Footer.css"
 
-import Contact from "../Contact/Contact";
-
-import { motion } from "framer-motion";
-
-function Footer() {
+const Footer = () => {
   return (
     <>
-      <div className="footer_wrap">
-        <Contact />
-        <div id="footer" className="footer">
-          <div className="footer_right">
-            <motion.div
-              className="footer_right_inner"
-              whileInView={{ scale: [0.7, 1] }}
-              transition={{ duration: 2, ease: "easeInOut" }}
-            >
-              <div>
-                <h4>Talk to </h4>
-                <h4>Our Specialist</h4>
-                <br />
-                <p>Dr.Gen</p>
-                <button>
-                  <a href="tel:0782442281">
-                    <small>Start Now</small>
-                  </a>
-                </button>
-              </div>
-              <div>
-                <div
-                  whileInView={{ scale: [0.7, 1] }}
-                  transition={{ duration: 2, ease: "easeInOut" }}
-                >
-                  <img src={pic} alt="pic" />
-                </div>
-              </div>
-            </motion.div>
-          </div>
-
-          <div className="footer_left">
-            <div>
-              <a
-                href="https://wa.me/256782442281/?text=Hi there, Whatsup"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsWhatsapp title="WhatsApp" style={{ color: "#25D366" }} />
-              </a>
-
-              <a href="/#contact">
-                <BsMessenger title="Messenger" style={{ color: "#006AFF" }} />
-              </a>
-
-              <a href="/#product">
-                <BsInstagram title="Instagram" style={{ color: "#8a3ab9" }} />
-              </a>
-
-              <a href="/#instructions">
-                <BsTwitter title="Twitter" style={{ color: " #00acee" }} />
-              </a>
-              <a href="tel:0782442281">
-                <BsTelephoneFill
-                  title="Make a call"
-                  style={{ color: "rgb(0,0,0,0.6)" }}
-                />
-              </a>
-            </div>
-          </div>
-          <p className="copyright_mobile">
-            &copy;{new Date().getFullYear()}&nbsp;Gen Organics.
-          </p>
+      <div className="footer-main">
+        <div>
+          <a href="tel:+256782442281">
+            <button>+256782442281</button>
+          </a>
         </div>
-
-        <div className="footer_copyright">
-          <img src={gen} alt="footer logo" />
-          <p>
-            &copy;{new Date().getFullYear()}&nbsp;Gen Organics. Made in Uganda
-            with &#10084;&#65039;
-          </p>
-        </div>
+        <p>
+          *DISCLAIMER: All services are fully spiritual and results may vary.
+          The trademarks or logos appearing on this website belong to their
+          respective parent companies.There are only used for descriptive
+          purposes.In the nature of transparency and authenticity, I do offer
+          traditional ritual services for those in need. Are they required for
+          everyone? Absolutely not. Will you receive value & insight even if you
+          don’t want to take up my services? Absolutely. Some people will take
+          my services, implement them by themselves, and see the breakthroughs.
+          Some people will see what’s possible, and know that working hand in
+          hand with my services is just what they need to get results even
+          faster. It’s completely up to you but I hope that you’ll at least try
+          one of my services, use it, and let the world know what you think!
+        </p>
+        <p id="copy">&copy;{new Date().getFullYear()}&nbsp;Papa Segane.</p>
+        <p id="sema">
+          Made with &#10084;&#65039;&nbsp;by{" "}
+          <a href="tel:+256782442281">Sema</a>
+        </p>
       </div>
     </>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

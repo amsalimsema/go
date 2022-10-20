@@ -2,14 +2,10 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
+  --black: #030303;
+  --white: #ffffff;
+  --red: #ff0000;
+  --grey: rgb(223, 222, 222);
 }
 
 *,
@@ -20,6 +16,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   font-family: var(--font-base);
+  background-color: var(--black);
 }
 a {
   text-decoration: none;
